@@ -1,0 +1,24 @@
+export const copy = {
+  English: {
+    language: "English", hindi: "हिन्दी", brandSub: "field guidance ledger",
+    welcome: "Welcome to AgriYield", accessIntro: "Make every field decision worth more.",
+    signIn: "Return to your dashboard", signUp: "Create a farmer profile", newFarmer: "New farmer? Sign up", existingFarmer: "Already registered? Sign in",
+    name: "Your name", phone: "Phone number", phoneHint: "+91 98765 43210", identifier: "Phone number or farmer ID", identifierHint: "Enter your phone or AGY-4821",
+    continue: "Continue", register: "Register farmer", confirmation: "You’re registered.", farmerId: "Your farmer ID is", confirmationHint: "Keep this ID for the next time you return.", enterDashboard: "Enter dashboard", accessError: "We couldn’t find that farmer. Check the details or create a profile.", nameRequired: "Add your name.", identifierRequired: "Add your phone number or farmer ID.",
+    nav: { monitor: "Live Field Monitor", planner: "Harvest & Revenue Planner", actions: "Action Center", review: "Season Review" },
+    projected: "Projected season revenue", atRisk: "Revenue at risk today", bannerStatus: "Your fields are mostly on track. One irrigation decision protects today’s grade-A value.",
+    smsSent: "SMS sent to", alertsSent: "Alerts sent", noAlerts: "No alerts have been sent yet.", mockSms: "MOCK SMS — no message was sent",
+  },
+  Hindi: {
+    language: "हिन्दी", hindi: "हिन्दी", brandSub: "खेत मार्गदर्शन रजिस्टर",
+    welcome: "AgriYield में आपका स्वागत है", accessIntro: "हर खेत के फैसले को अधिक मूल्यवान बनाएं।",
+    signIn: "अपने डैशबोर्ड पर लौटें", signUp: "किसान प्रोफ़ाइल बनाएं", newFarmer: "नए किसान? साइन अप करें", existingFarmer: "पहले से पंजीकृत? साइन इन करें",
+    name: "आपका नाम", phone: "फ़ोन नंबर", phoneHint: "+91 98765 43210", identifier: "फ़ोन नंबर या किसान आईडी", identifierHint: "अपना फ़ोन या AGY-4821 डालें",
+    continue: "जारी रखें", register: "किसान पंजीकृत करें", confirmation: "आपका पंजीकरण हो गया है।", farmerId: "आपकी किसान आईडी है", confirmationHint: "अगली बार लौटने के लिए इसे संभालकर रखें।", enterDashboard: "डैशबोर्ड खोलें", accessError: "हमें यह किसान नहीं मिला। विवरण जांचें या नई प्रोफ़ाइल बनाएं।", nameRequired: "अपना नाम लिखें।", identifierRequired: "फ़ोन नंबर या किसान आईडी लिखें।",
+    nav: { monitor: "लाइव खेत मॉनिटर", planner: "कटाई और आय योजना", actions: "कार्य केंद्र", review: "सीज़न समीक्षा" },
+    projected: "अनुमानित सीज़न आय", atRisk: "आज जोखिम में आय", bannerStatus: "आपके खेत सही दिशा में हैं। एक सिंचाई निर्णय आज की ग्रेड-A कीमत बचा सकता है।",
+    smsSent: "SMS भेजा गया", alertsSent: "भेजे गए अलर्ट", noAlerts: "अभी कोई अलर्ट नहीं भेजा गया।", mockSms: "डेमो SMS — कोई असली संदेश नहीं भेजा गया",
+  },
+};
+
+export const getCopy = (language) => copy[language] || copy.English;
