@@ -1,6 +1,63 @@
 @media (max-width: 700px) {
-  .nav-inner { position: relative; }
-  .language-wrap { position: absolute; right: 18px; top: 8px; }
+  .nav-inner {
+    position: relative;
+  }
+  .language-wrap {
+    position: absolute;
+    right: 18px;
+    top: 8px;
+  }
 }
-.profile-button{border:0;background:none;margin-left:8px;color:var(--canopy-600);padding:0}.profile-button span{width:25px;height:25px;border:1px solid var(--canopy-600);border-radius:50%;display:grid;place-items:center;font:600 11px 'Public Sans'}
-.alert-history{max-width:1440px;margin:0 auto 70px;padding:0 4.2vw}.alert-history .section-title{border-top:1px solid var(--border);padding-top:24px;margin-top:8px}.alert-history .section-title p{font-size:11px;color:var(--muted);margin-top:4px}.alert-log{display:flex;gap:12px;align-items:flex-start;border-bottom:1px solid var(--border);padding:13px 0;color:var(--soil)}.alert-log strong{font:600 14px 'Fraunces';color:var(--ink)}.alert-log p{font-size:11px;color:var(--muted);margin:4px 0}.alert-log small,.alert-empty{font-size:10px;color:var(--muted)}
+.profile-button {
+  border: 0;
+  background: none;
+  margin-left: 8px;
+  color: var(--canopy-600);
+  padding: 0;
+}
+.profile-button span {
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--canopy-600);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font: 600 11px "Public Sans";
+}
+.alert-history {
+  max-width: 1440px;
+  margin: 0 auto 70px;
+  padding: 0 4.2vw;
+}
+.alert-history .section-title {
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  margin-top: 8px;
+}
+.alert-history .section-title p {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.alert-log {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border);
+  padding: 13px 0;
+  color: var(--soil);
+}
+.alert-log strong {
+  font: 600 14px "Fraunces";
+  color: var(--ink);
+}
+.alert-log p {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 4px 0;
+}
+.alert-log small,
+.alert-empty {
+  font-size: 10px;
+  color: var(--muted);
+}
